@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,142 @@
     <link rel="stylesheet" type="=text/css" href="style.css">
     <script src="script.js"></script>
     <title>Bootcamp Day 6-HTML Day 1</title>
-</head>
-<body>
-    <h1>hello world</h1>
-    <p> <marquee>test1 hello</marquee></p>
-    <ul>
-        <li> <a href="portfolio.html">portfolio</a></li>
-        <li> <a href="about.html">about</a></li>
-        <li> <a href="contact.html">contact</a></li>
-    </ul>
+
+    <style>
+        body{
+            background-color: black;
+        }
+        
+
+        .border {
+            
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            background-color: grey;
+            height: 600px;
+            width: 850px;
+            margin-top: 40px;
+            margin-left: 220px;
+
+            border-radius: 20px 20px 20px 20px;
+
+        }
+
+        footer {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+           
+        }
+
+        .item {
+            display: inline-block;
+
+        }
+
+        .item h1{
+            padding: 0px 15px 0px 50px;
+            
+        }
+        .item img{
+            padding: 70px 0px 0px 70px;
+            
+        }
+        
+        .border h1 {
+            text-align: center;
+            font-size: 80px;
+        }
+
+        .pargraph {
+
+            background-color: white;
+            height: 280px;
+            width: 850px;
+        }
+        aside {
+  width: 25%;
+  padding-right: 15px;
+  margin-right: 15px;
+  float: left;
+  
+}
+
+  a{
+   
+    text-decoration: none;
+    color: #000;
+   
+}
+ ul{
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+ hr{
+     margin-top: 10px;
+     margin-bottom: 10px;
+     
     
+}
+aside p{
+    padding-left: 15px;
+}
+section h3 {
+    margin-top: 50px;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="border">
+
+        <header>
+
+            <span class="item"><img src="E:\bootcamp-day-6-exercise\asset\img\tv2.jpg"></span>
+            <span class="item">
+                <h1><i> My Website!</i></h1>
+            </span>
+
+        </header>
+
+        <div class="pargraph">
+            <aside>
+            <ul>
+                <li> <a href="index.html">Home</a></li><hr>
+                <li> <a href="portfolio.html">portfolio</a></li><hr>
+                <li> <a href="about.html">about</a></li><hr>
+                <li> <a href="contact.html">contact</a></li><hr>
+            </ul>
+        <p> "There is no one who loves pain itself, who seeks after it and wants to have it,
+             simply because it is pain..."</p>
+
+        </aside>
+        <section>
+            
+            <h3>Lorem Ipsum</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                 when an unknown printer took a galley 
+                of type and scrambled it to make a type specimen book..</p>
+                <p>It is a long established fact that a reader will be 
+                    distracted by the readable content of a page when looking at its layout.
+                     The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
+                     as opposed to using 'Content here, content here', making it look like readable English. 
+                     Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
+                      and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+                       Various versions have evolved over the years.</p>
+          </section>
+          
+
+        </div>
+
+        <footer>
+            <p> @Footer inc </p>
+        </footer>
+    </div>
 </body>
+
 </html>
